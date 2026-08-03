@@ -3,6 +3,9 @@ body{
   font-size: 100%;
   background-color: rgba(138, 208, 179, 0.535);
 }
+header{ background-color: rgba(138, 208, 179, 0.535);
+}
+
 nav{
   background-color: rgba(0, 72, 255, 0.292); outline-width: 5px;
   outline-color: #003366;
