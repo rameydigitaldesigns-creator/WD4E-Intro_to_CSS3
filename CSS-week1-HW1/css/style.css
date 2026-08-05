@@ -7,17 +7,28 @@ header{ background-color: rgba(138, 208, 179, 0.535);
 }
 
 nav{
+  width: 40%;
   background-color: rgba(0, 72, 255, 0.292); outline-width: 5px;
   outline-color: #003366;
   outline-style: solid;
-}
+  background: linear-gradient(to bottom,  #c5deea 0%,#8abbd7 31%,#066cab91 100%); 
+
+} 
+
 main{
 background-color: rgba(218, 99, 99, 0.282);
   font-size: 125%;
 
 }
-li{
-  display: inline-table;
+
+nav a {
+  text-decoration: none;
+  color: #003366;
+  font-size: 125%;
+}
+nav a:hover {
+  color: #010101;
+display:-moz-grid-line; column-gap: 10px;
   width: 25%;
   text-align: center;
   height: 50px;
@@ -29,6 +40,25 @@ li{
   outline-style: dotted;
   
 }
+div{
+  text-align: center;
+}
+.header-image{
+  width: 10%;
+  justify-content:space-around;
+}
+
+.flex {
+  display: flex;
+  justify-content:left;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+li{ list-style-type: none;
+}
+
 h1{
   text-align: center;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -46,4 +76,12 @@ footer {
   background-color: rgba(0, 72, 255, 0.292);
   text-align: center;
   padding: 10px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 10%;
+  column-gap: 10%;
 }
